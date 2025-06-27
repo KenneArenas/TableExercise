@@ -6,7 +6,29 @@
 </head>
 <body>
 <table>
-  <caption>Ejercicio de la Tabla</caption>
+  
+  <style>
+    table {
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+    td {
+      border: 1px solid #999;
+      width: 100px;
+      height: 60px;
+      text-align: center;
+      vertical-align: middle;
+      background-color: #ddd;
+      font-weight: bold;
+    }
+    caption {
+      margin-top: 15px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+  </head>
+  <caption>Caption de la Tabla</caption>
   <tr>
     <td>A</td>
     <td>B</td>
@@ -20,13 +42,12 @@
   </tr>
   <tr>
     <td>J</td>
-    <td>K, O</td>
+    <td rowspan="2">K, O</td>
     <td>L</td>
   </tr>
   <tr>
     <td>M</td>
     <td>N</td>
-    <td>O</td>
     <td>P</td>
   </tr>
 </table>
